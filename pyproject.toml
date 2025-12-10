@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "nnwave-ml"
+version = "0.1.0"
+description = "ML pipeline for WW3-based air-entrainment velocity parameterization"
+authors = [
+  { name = "Xiaohui Zhou", email = "your_email@example.com" },
+]
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+  "numpy",
+  "xarray",
+  "zarr",
+  "dask[distributed]",
+  "netcdf4",
+  "torch",
+  "pandas",
+]
+
+[project.scripts]
+nnwave-convert-nc-to-zarr = "nnwave_ml.convert:main"
+nnwave-build-mask         = "nnwave_ml.mask_clean:main"
+nnwave-compute-scalers    = "nnwave_ml.scalers:main"
+nnwave-train-pointwise    = "nnwave_ml.train_pointwise:main"
+nnwave-predict-pointwise  = "nnwave_ml.predict_pointwise:main"
