@@ -50,5 +50,6 @@ nnwave-predict-pointwise \
   --save_features hs cp U10
 ```
 
-## Below is an example visualization produced using this package:
+## Below is an example visualization produced using this package in 2019, the bias from ML predicted wave breaking air entrainment is small enough to be ignored:
+[Example Figure](docs/2019_truth_mean.png)
 ![Example Figure](docs/2019_diff_mean.png)
