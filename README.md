@@ -13,7 +13,10 @@ This package turns my research workflow into:
 ✔ importable from Python scripts and notebooks
 
 It is designed for running at scale on HPC clusters with Dask + PyTorch DDP.
-
+## Install this package:
+git clone https://github.com/xiaohuizhou123/nnwave_ml.git
+cd nnwave_ml
+pip install -e .
 ---
 
 ## 🌊 Pipeline Overview
