@@ -14,9 +14,11 @@ This package turns my research workflow into:
 
 It is designed for running at scale on HPC clusters with Dask + PyTorch DDP.
 ## Install this package:
-git clone https://github.com/xiaohuizhou123/nnwave_ml.git
-cd nnwave_ml
-pip install -e .
+
+
+1. git clone https://github.com/xiaohuizhou123/nnwave_ml.git
+2. cd nnwave_ml
+3. pip install -e .
 ---
 
 ## 🌊 Pipeline Overview
